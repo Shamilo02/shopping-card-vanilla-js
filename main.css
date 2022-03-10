@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+.shop-modal{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -100%;
+    left: 0;
+    /* background-color: black; */
+    background-image: url('https://images6.alphacoders.com/411/thumb-1920-411098.jpg');
+    background-size: cover;
+    transition: 0.5s ease;
+    z-index: 1 !important;
+    font-family: Poppins,sans-serif;
+   
+}
+
+
+
+.show{
+    top: 0;
+    z-index: 0 ;
+}
